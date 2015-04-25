@@ -1,0 +1,115 @@
+body {
+	font-family: 'Kite One', sans-serif;
+	font-size:14px;
+}
+
+#graph {
+	width: 610px;
+	height: 640px;
+	margin-right:10px;
+	float:left;
+	text-align:center;
+}
+
+#canvas {
+	width: 600px;
+	height: 600px;
+	
+}
+
+#control {
+	width: 620px;
+	height:600px;
+	padding:10px 5px;
+	float:left;
+	display:block;
+	border:1px solid #ccc;
+	text-align: center;
+	background:#f1f1f1;
+}
+
+ul {
+	list-style-type: none;
+	display: table;
+	margin:0;
+	padding:0;
+}
+
+ul li {
+	display:table-cell;
+	text-align: center;
+	padding:10px;
+}
+
+
+input, input[type] {
+	font-family: 'Kite One', sans-serif;
+}
+
+h3 {
+	text-align: center;
+	font-size:13px;
+	font-style: italic;
+	margin-top:4px;
+}
+
+.selected {
+	border:3px solid #aaaaaa;
+}
+
+.slide {
+	margin-left:13px;
+}
+
+#topBox, #botBox {
+	display:block;
+	margin-bottom:5px;
+	height:250px;
+	text-align: center;
+}
+
+#botBox {
+	width:260px;
+	margin:55px auto;
+	
+}
+
+#sliderSpacing, #sliderPhase {
+	display:inline-block;
+	width:200px;
+	margin:3px auto;
+}
+
+.horiz-slidebox, .vert-slidebox {
+	width:33px;
+	text-align: center;
+}
+
+.horiz-slidebox {
+	float:left;
+	
+	margin-right:14px;
+}
+
+.ui-slider-legend {
+	display:table;
+	width:200px;
+	margin:0 0 0 60px;
+}
+
+.ui-slider-legend p {
+	display:table-cell;
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+
+#numElements {
+	width:40px;
+	font-family: 'Kite One', sans-serif;
+	font-size:12px;
+}
+
+.icon {
+	width:30px;
+}
